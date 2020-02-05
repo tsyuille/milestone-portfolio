@@ -1,0 +1,206 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: #000000;
+}
+
+#header, #contact {
+  height: 800px;
+}
+
+#about, #portfolio {
+  height: 850px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+#header h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 64px;
+  color: #000000;
+  padding: 80px 0 0 25px;
+  width: 850px;
+  float: left;
+  margin-top: 150px;
+}
+
+#header span {
+  color: #edce02;
+}
+
+#header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  width: 850px;
+  line-height: 50px;
+  padding: 5px 0 20px 25px;
+  float: left;
+}
+
+nav {
+  float: right;
+  padding: 75px 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transformation: capitalize;
+  font-size: 18px;
+  color: #000000;
+  padding-left: 25px;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#about {
+  background-color: #fddc03;
+}
+
+#about h3 {
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  font-size: 36px;
+}
+
+#about img {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #ffffff;
+}
+
+#top-line {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+#about p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+/***** PORTFOLIO *****/
+
+
+#portfolio h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 36px;
+  text-align: center;
+  padding: 70px;
+}
+
+#portfolio .full-width {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#portfolio img {
+  width: 350px;
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #ffffff;
+
+}
+
+#portfolio h4 {
+  font-size: 24px;
+  width: 350px;
+  text-align: center;
+  margin: 20px auto;
+
+}
+
+#portfolio p {
+  font-size: 20px;
+  text-align: center;
+  width: 350px;
+  margin: 20px auto;
+}
+
+/***** CONTACT *****/
+
+#contact .full-width {
+  padding-top: 30px;
+}
+
+#contact {
+  background-color: #fddc03;
+}
+ #contact h3 {
+   font-family: 'Libre Baskerville', serif;
+   font-size: 36px;
+   text-align: center;
+ }
+
+ #contact h2 {
+   text-align: center;
+   font-size: 24px;
+   font-weight: 700;
+   padding-bottom: 20px;
+ }
+
+
+ #contact .icons {
+   text-align: center;
+   padding: 450px;
+ }
+
+ #contact-info {
+   text-align: center;
+ }
+
+#contact-info a {
+  color: #000000;
+  font-size: 20px;
+}
+
+#socialmedia h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#socialmedia ul {
+  list-style: none;
+}
+
+#socialmedia ul li {
+  display: inline-block;
+}
+
+#socialmedia ul img {
+  width: 28px;
+  padding-right: 48px;
+  padding-top: 20px;
+}
